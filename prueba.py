@@ -64,6 +64,7 @@
 
 def ContarVocales():
     frase = input("Agregue una frase: ")
+    listaFrase = [numeros]
     print(frase)
     contador = 0
     print(contador)

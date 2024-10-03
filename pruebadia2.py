@@ -111,3 +111,45 @@
 
 #prueba 6
 
+# def mayusculas():
+#     lis_min = ["Hola" , "adios", "azucar", "nosequemasponer"]
+    
+#     lis_mayu = list(map(str.upper, lis_min))
+    
+#     return lis_mayu
+
+# print(mayusculas())
+
+#prueba 7
+
+# def ordenNum():
+    
+#     lis_num = [3,4,2,5,1]
+    
+#     orden_Rev = sorted(lis_num, reverse=True)
+    
+#     return orden_Rev
+
+# print(ordenNum())
+
+#prueba 8
+
+
+
+def redondear():
+    numeros = {
+    "numero_1": 23.3,
+    "numero_2": 34.4,
+    "numero_3": 12.6,
+    "numero_4": 45.7,
+    "numero_5": 9.2
+    }
+    
+    numeros_redon = {
+        clave: round(valor) for clave, valor in numeros.items()
+        }
+    
+    return numeros_redon
+
+
+print(redondear())
